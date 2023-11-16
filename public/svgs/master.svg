@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="65.498" height="31.226" viewBox="0 0 65.498 31.226">
+  <g id="Group_433" data-name="Group 433" opacity="0.999">
+    <rect id="Rectangle_297" data-name="Rectangle 297" width="65.498" height="31.226" rx="5" transform="translate(0 0)" fill="#f5c4c4"/>
+    <g id="Size_md_Payment_method_Mastercard" data-name="Size=md, Payment method=Mastercard" transform="translate(11.717 2.499)" style="isolation: isolate">
+      <g id="Mastercard" transform="translate(0 0)" style="isolation: isolate">
+        <path id="Left" d="M21.032,22.2A12.79,12.79,0,0,1,0,12.605,12.79,12.79,0,0,1,21.032,3.011a12.79,12.79,0,0,1,21.032,9.594A12.79,12.79,0,0,1,21.032,22.2Z" transform="translate(0)" fill="#ed0006" style="isolation: isolate"/>
+        <path id="Right" d="M8.275,25.211A12.853,12.853,0,0,1,0,22.2a12.531,12.531,0,0,0,4.483-9.594A12.532,12.532,0,0,0,0,3.011,12.853,12.853,0,0,1,8.275,0,12.7,12.7,0,0,1,21.031,12.605,12.7,12.7,0,0,1,8.275,25.211Z" transform="translate(21.033 0)" fill="#f9a000" style="isolation: isolate"/>
+        <path id="Middle" d="M0,9.594A12.517,12.517,0,0,1,4.483,0,12.518,12.518,0,0,1,8.964,9.594a12.518,12.518,0,0,1-4.482,9.594A12.517,12.517,0,0,1,0,9.594Z" transform="translate(16.55 3.011)" fill="#ff5e00" style="isolation: isolate"/>
+      </g>
+    </g>
+  </g>
+</svg>

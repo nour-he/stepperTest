@@ -1,0 +1,51 @@
+ <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="100%"
+              height="100%"
+              viewBox="0 0 15.337 15.672"
+            >
+              <g
+                id="Group_395"
+                data-name="Group 395"
+                transform="translate(-0.12 -0.121)"
+              >
+                <g
+                  id="Group_216"
+                  data-name="Group 216"
+                  transform="translate(0 0)"
+                >
+                  <ellipse
+                    id="Ellipse_6"
+                    data-name="Ellipse 6"
+                    cx="7.169"
+                    cy="7.336"
+                    rx="7.169"
+                    ry="7.336"
+                    transform="translate(0.62 0.62)"
+                    fill="#28282A"
+                    stroke="#ff593e"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1"
+                  />
+                  <path
+                    id="Path_112"
+                    data-name="Path 112"
+                    d="M7.185,9.057a.759.759,0,1,1-.759-.777.768.768,0,0,1,.759.777"
+                    transform="translate(1.364 1.992)"
+                    fill="#ff593e"
+                  />
+                  <line
+                    id="Line_38"
+                    data-name="Line 38"
+                    y2="5.154"
+                    transform="translate(7.789 4.086)"
+                    fill="none"
+                    stroke="#ff593e"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1"
+                  />
+                </g>
+              </g>
+            </svg>

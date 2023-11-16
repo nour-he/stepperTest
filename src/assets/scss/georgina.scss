@@ -1,0 +1,120 @@
+.separate::after {
+    content: "";
+    display: block;
+    width: 100%;  
+    height: 1px;  
+    background-color: #434343;  
+  }
+
+  // .gradient-border {
+  //   border-image: linear-gradient(to right, #F24933, #3621B6);
+  //   border-image-slice: 1;
+  //   border-image-width: 2px; 
+  //   border-radius: 17px;
+  //   border-style: solid;
+  // }
+
+  .gradient-border {
+    //display: inline-block;
+    padding: 2px;  
+    background: linear-gradient(to right, #F24933, #3621B6);
+    border-radius: 17px;
+  }
+  
+  .gradient-border .content {
+    background: #28282A;  
+    padding: 1px;  
+    border-radius: 17px;     
+  }
+
+  .blue-border {
+    //display: inline-block;
+    padding: 1px;  
+    background: #3621B6;
+    border-radius: 17px;
+  }
+  
+  .blue-border .content {
+    background: #202022;  
+    padding: 2px;  
+    border-radius: 17px;     
+  }
+
+  .gradient-border-inv{  //display: inline-block;
+    padding: 2px;  
+    background: linear-gradient(to right,#3621B6 ,#F24933 );
+    border-radius: 17px;
+  }
+  
+  .gradient-border-inv .content {
+    background: #202022;  
+    padding: 2px;  
+    border-radius: 17px;     
+  }
+
+  .gradient-border-msg {
+    padding: 2px;  
+    background: linear-gradient(to right, #F24933, #3621B6);
+    border-radius: 5px;
+  }
+  
+  .gradient-border-msg .content {
+    background: #202022;  
+    padding: 2px;  
+    border-radius: 5px;     
+  }
+
+  .teams-wrapper >div{
+    width: 165px;
+  }
+
+
+  
+.check-button-team {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  //column-gap: 10px;
+    
+ input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: relative;
+    cursor: pointer;
+    min-width: 18px;
+    height: 18px;
+    background-color: transparent;
+    border: 2px solid #725AFF;
+    -webkit-transition: .4s;
+    transition: .4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .slider:before {
+    content: "";
+    height: 10px;
+    width: 10px;
+    display: none;
+  }
+  
+  input:checked + .slider:before {
+    background-color: #F94933;
+    display: block;
+  }
+  
+  .slider.round {
+    border-radius: 50%;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+}

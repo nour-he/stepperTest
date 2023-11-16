@@ -1,0 +1,53 @@
+import React from "react";
+export default function SvgDraw() {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 72.32 51.22"
+      height="100%"
+      width="100%"
+    >
+      <g>
+        <path
+          d="M1,12.25V39c0,3.94,0,5.91.77,7.41a7,7,0,0,0,3.07,3.07c1.5.77,3.47.77,7.41.77H60.06c3.94,0,5.91,0,7.42-.77a7,7,0,0,0,3.07-3.07c.77-1.5.77-3.47.77-7.41V12.25c0-3.94,0-5.91-.77-7.41a7,7,0,0,0-3.07-3.07C66,1,64,1,60.06,1H12.25c-3.94,0-5.91,0-7.41.77A7,7,0,0,0,1.77,4.84C1,6.34,1,8.31,1,12.25Z"
+          fill="none"
+          stroke="#fff"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+        />
+        <line
+          x1="15.06"
+          y1="18.58"
+          x2="15.06"
+          y2="32.64"
+          fill="none"
+          stroke="#f94933"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+        />
+        <line
+          x1="57.25"
+          y1="18.58"
+          x2="57.25"
+          y2="32.64"
+          fill="none"
+          stroke="#f94933"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+        />
+        <circle
+          cx="36.16"
+          cy="25.61"
+          r="8.79"
+          fill="none"
+          stroke="#f94933"
+          stroke-miterlimit="10"
+          stroke-width="2"
+        />
+      </g>
+    </svg>
+  );
+}

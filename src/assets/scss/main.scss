@@ -1,0 +1,467 @@
+@font-face {
+  font-family: "clashdisplay-semibold";
+  src: url(../fonts/clashdisplay-semibold.otf) format("truetype");
+  src: url(../fonts/clashdisplay-semibold-webfont.eot);
+  src: url(../fonts/clashdisplay-semibold-webfont.woff) format("woff"),
+    url(../fonts/clashdisplay-semibold-webfont.woff2) format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "clash_display_variablebold";
+  src: url(../fonts/clashdisplay-variable-webfont.eot);
+  src: url(../fonts/clashdisplay-variable-webfont.eot?#iefix)
+      format("embedded-opentype"),
+    url(../fonts/clashdisplay-variable-webfont.woff2) format("woff2"),
+    url(../fonts/clashdisplay-variable-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "clashdisplay-regular";
+  src: url(../fonts/clashdisplay-regular-webfont.eot);
+  src: url(../fonts/clashdisplay-regular-webfont.eot?#iefix)
+      format("embedded-opentype"),
+    url(../fonts/clashdisplay-regular-webfont.woff2) format("woff2"),
+    url(../fonts/clashdisplay-regular-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "clashdisplay-medium";
+  src: url(../fonts/clashdisplay-medium-webfont.eot);
+  src: url(../fonts/clashdisplay-medium-webfont.eot?#iefix)
+      format("embedded-opentype"),
+    url(../fonts/clashdisplay-medium-webfont.woff2) format("woff2"),
+    url(../fonts/clashdisplay-medium-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "interregular";
+  src: url(../fonts/inter-variablefont_slntwght-webfont.eot);
+  src: url(../fonts/inter-variablefont_slntwght-webfont.eot?#iefix)
+      format("embedded-opentype"),
+    url(../fonts/inter-variablefont_slntwght-webfont.woff2) format("woff2"),
+    url(../fonts/inter-variablefont_slntwght-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "interSemiBold";
+  src: url(../fonts/inter-semibold-webfont.eot);
+  src: url(../fonts/inter-semibold-webfont.eot?#iefix)
+      format("embedded-opentype"),
+    url(../fonts/inter-semibold-webfont.woff2) format("woff2"),
+    url(../fonts/inter-semibold-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "interBold";
+  src: url(../fonts/inter-bold-webfont.eot);
+  src: url(../fonts/inter-bold-webfont.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/inter-bold-webfont.woff2) format("woff2"),
+    url(../fonts/inter-bold-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "interLight";
+  src: url(../fonts/inter-light-webfont.eot);
+  src: url(../fonts/inter-light-webfont.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/inter-light-webfont.woff2) format("woff2"),
+    url(../fonts/inter-light-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "intermedium";
+  src: url(../fonts/inter-medium-webfont.eot);
+  src: url(../fonts/inter-medium-webfont.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/inter-medium-webfont.woff2) format("woff2"),
+    url(../fonts/inter-medium-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "outfitthin";
+  src: url(../fonts/outfit-variablefont_wght-webfont.eot);
+  src: url(../fonts/outfit-variablefont_wght-webfont.eot?#iefix)
+      format("embedded-opentype"),
+    url(../fonts/outfit-variablefont_wght-webfont.woff2) format("woff2"),
+    url(../fonts/outfit-variablefont_wght-webfont.woff) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.active {
+  opacity: 20%;
+}
+.inactive {
+  opacity: 100%;
+}
+.centered-div {
+  display: grid;
+  place-items: center;
+}
+
+.shadow_n {
+  box-shadow: 0px 3px 12px #000000b1;
+}
+.shadow_f {
+  box-shadow: 0px 4px 18px #000000aa;
+}
+.banner-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.truncated-text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+.expanded-text {
+  display: block;
+  overflow: visible;
+  white-space: normal;
+}
+.pageheading {
+  font-family: "clashdisplay-semibold";
+  font-size: 43px;
+  color: white;
+  letter-spacing: 0px;
+  text-align: center;
+  padding-top: 46px;
+  padding-bottom: 21px;
+  line-height: 53px;
+}
+@media (max-width: 1024px) {
+  .pageheading {
+    font-size: 35px; /* Adjust the font size for mobile */
+
+    text-align: center;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    line-height: 38px; /* Adjust the line height for mobile */
+  }
+}
+.hrseN {
+  font-size: 28px;
+  margin-right: 3px;
+  font-family: "intermedium";
+}
+@media (max-width: 1024px) {
+  .hrseN {
+    font-size: 17px;
+    margin-right: 3px;
+    font-family: "intermedium";
+    line-height: 20px;
+  }
+}
+.hrseT {
+  font-size: 22px;
+  font-family: "interregular";
+  line-height: 22px;
+}
+@media (max-width: 1024px) {
+  .hrseT {
+    font-size: 11px;
+    font-family: "interregular";
+    line-height: 14px;
+  }
+}
+.text-style {
+  font-family: "interLight";
+  letter-spacing: 0px;
+  color: white;
+  font-size: 23px;
+  text-align: center;
+}
+.cardShadow {
+  box-shadow: 0px 3px 6px #00000060;
+}
+.card {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  padding-left: 40px;
+  padding-right: 40px;
+  box-shadow: 0px 3px 6px #00000060;
+  border-radius: 20px;
+  background-color: #202022;
+}
+@media (max-width: 1024px) {
+  .card {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 0;
+  }
+}
+.cardTitle {
+  color: white;
+  font-size: 32px;
+  font-family: "interBold";
+  letter-spacing: 0px;
+  text-align: left;
+  line-height: 36px;
+}
+@media (max-width: 1024px) {
+  .cardTitle {
+    font-size: 18px;
+    line-height: 21px;
+  }
+}
+.cardText {
+  text-align: left;
+  letter-spacing: 0px;
+  font-family: "interregular";
+  color: #a5a5a5;
+  opacity: 1;
+  font-size: 15px;
+  line-height: 20px;
+}
+@media (max-width: 1024px) {
+  .cardText {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+.readmore {
+  color: #725aff;
+  font-size: 15px;
+  font-family: "interBold";
+  text-align: left;
+  line-height: 17px;
+}
+@media (max-width: 1024px) {
+  .readmore {
+    font-size: 12px;
+  }
+}
+.disabledcardbtn {
+  background-color: #828282;
+  color: #494949;
+  font-family: "clashdisplay-semibold";
+  font-size: 21px;
+  text-align: center;
+  border-radius: 10px;
+  width: 132px;
+  height: 49px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 1024px) {
+  .disabledcardbtn {
+    font-size: 13px;
+    border-radius: 4px;
+    width: 90px;
+    height: 33px;
+  }
+}
+.cardbtn {
+  font-family: "clashdisplay-semibold";
+  font: size 21px;
+  text-align: center;
+  border-radius: 10px;
+  width: 132px;
+  height: 49px;
+  background: #3621b6;
+  color: white;
+}
+@media (max-width: 1024px) {
+  .cardbtn {
+    font-family: "clashdisplay-semibold";
+    font: size 13px;
+    line-height: 16px;
+    border-radius: 10px;
+    width: 90px;
+    height: 33px;
+  }
+}
+
+.gethrsebtn {
+  color: #f9644b;
+  font-size: 18px;
+  font-family: "interregular";
+  text-decoration: underline;
+
+  line-height: 36px;
+}
+@media (max-width: 1024px) {
+  .gethrsebtn {
+    font-size: 14px;
+  }
+}
+
+.voteBox {
+  border-radius: 4px;
+
+  color: white;
+  font-size: 22px;
+  font-family: "clashdisplay-regular";
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 24px;
+}
+@media (max-width: 1024px) {
+  .voteBox {
+    border-radius: 4px;
+    min-width: 99px;
+    height: 72px;
+    color: white;
+    font-size: 16px;
+    line-height: 15px;
+  }
+}
+.shopCardImage {
+  border-radius: 10px;
+  object-fit: cover;
+}
+.voteBtn {
+  border-radius: 4px;
+  width: 132px;
+  height: 49px;
+  color: white;
+  font-size: 21px;
+  font-family: "clashdisplay-semibold";
+  text-align: center;
+  background-color: #3621b6;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 26px;
+}
+@media (max-width: 1024px) {
+  .voteBtn {
+    border-radius: 4px;
+    width: 90px;
+    height: 33px;
+    color: white;
+    font-size: 13px;
+
+    line-height: 16px;
+  }
+}
+.drawbtn {
+  background-color: #3621b6;
+  color: white;
+  font-size: 21px;
+  font-family: "clashdisplay-semibold";
+  width: 175px;
+  height: 48px;
+  border-radius: 4px;
+  line-height: 26px;
+}
+@media (max-width: 1024px) {
+  .drawbtn {
+    font-size: 13px;
+    width: 104px;
+    height: 33px;
+    line-height: 16px;
+  }
+}
+.opacityHover:hover {
+  opacity: 0.7;
+  transition: all 0.3s;
+}
+
+.gradient-border {
+  position: relative;
+  padding: 2px;
+}
+
+.gradient-border::before {
+  content: "";
+  position: absolute;
+
+  z-index: -1;
+  background: linear-gradient(60deg, #f24933, #3621b6);
+  border-radius: 5px; /* Adjust to match your border radius */
+  border-width: 1px;
+}
+
+.choice1 {
+  background-color: #5c7fff;
+}
+.choice2 {
+  background-color: #382cdd;
+}
+
+.rotate-x {
+  transform: rotateX(180deg);
+}
+.rotate-180 {
+  transform: rotate(180deg);
+  transition: transform 0.8s ease;
+}
+
+.arrowaAnimation {
+  transform: translateX(0);
+  transition: transform 0.3s ease; /* Adjust the duration and easing here */
+}
+.rotate-y {
+  transform: rotateY(180deg);
+}
+.gethrse3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #202022;
+  // box-shadow: 0px 3px 6px #00000060;
+  // border-radius: 20px;
+  padding: 45px;
+  margin-bottom: 25px;
+}
+
+.gethrse_title {
+  text-align: center;
+  font-family: "interregular";
+  letter-spacing: 0px;
+  color: #ffffff;
+  font-size: 36px;
+  width: 50%;
+}
+.gethrseComfirm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.verficationCode{
+  background: #FFFFFF0A 0% 0% no-repeat padding-box;
+  box-shadow: 2px 3px 8px #1018280D;
+  border: 1px solid #FFFFFF5F;
+  border-radius: 20px;
+  padding: 40px;
+}
+@media (max-width: 1024px) {
+  .verficationCode{
+   
+    padding: 25px;
+  }
+}
+
+.stepper_ div:nth-child(2) {
+  background-color: #3621b6;
+}
+.gradient-border-onboarding {
+  padding: 1px;  
+  background: linear-gradient(to right, #F24933, #3621B6);
+  border-radius: 20px;
+}
+
+.gradient-border-onboarding .content {
+  background: #202022;  
+  padding: 1px;  
+  border-radius: 20px;     
+}
